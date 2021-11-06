@@ -1,23 +1,16 @@
-let image = document.getElementById("GK");
+let lista = document.getElementById("lista");
 
-image.addEventListener("click",function () {
+let num = lista.getAttribute("num")
 
-  //  image.src ="./images/deadpol.jpg"
+let num = parseInt (lista.getAttribute("num"))
 
-  let lastImage = image.getAttribute("src");
-   
-  image.setAttribute("src","./images/deadpol.jpg")
+let = conteudo = "" ;
 
-   console.log(lastImage);
+for(let i = 0; i < num; i++){
 
+conteudo += "<li>"+i+"</li>";
 
-})
-//let lista = document.getElementById("lista")
+}
 
-//let num = lista.getAttribute("num");
+lista.innerHTML = conteudo ;
 
-//let conteudo =""
-//for(let i = 0 ; i < num ; i++){
-  //  conteudo += "<li>"+i+"</li>";
-//}
-//lista.innerHTML
