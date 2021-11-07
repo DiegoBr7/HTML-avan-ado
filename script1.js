@@ -2,7 +2,7 @@ let lista = document.getElementById("lista");
 
 let num = lista.getAttribute("num")
 
-let num = parseInt (lista.getAttribute("num"))
+console.log(lista.dataset.num)
 
 let = conteudo = "" ;
 
