@@ -4,15 +4,62 @@
     <meta charset="UTF-8">
   
     <title>Document</title>
-</head>
-<body>
 
-   
-    
-  
+<style>
 
-     <video preload ="none" controls autoplay muted loop width= "500" height= "500"src="./video/Novo projeto.mp4" poster = "images/deadpol.jpg"> 
-    </video>
+     .conteiner {
+          position: relative;
+          width: 640;
+          height: 360;
+}
+
+      .video {
+         width: 100%;
+ }
+      .controle{
+          position: absolute;
+          top: 0;
+          width: 100%;
+          height: 100%;
+          text-align: center;
+         /* background-color: red;*/
+
+ }
+
+       .btn{
+
+        width: 60px;
+        margin: 10px;
+        padding: 10px;
+        top: 100%
+        transform : translateY(-100%)
+       } 
+
+  </style>
+
+  </head>
+  <body>
+
+
+     <div class="conteiner"> 
+
+     <video class="video" src="./video/Novo projeto.mp4">
+
+
+     </video>
+
+         <div class="controle">
+         <img  class= "btn"src="./images/deadpol.jpg">
+         <img  class= "btn" src="./images/melhores img.jpg" >
+         <img  class= "btn" src="./images/deadpol.jpg">
+         <img  class= "btn" src="./images/melhores img.jpg" >
+         <img  class= "btn" src="./images/deadpol.jpg">
+         <img  class= "btn" src="./images/melhores img.jpg" >
+
+
+</div>
+
+</div>
 
 </body>
 
