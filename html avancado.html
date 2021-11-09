@@ -32,7 +32,7 @@
         margin: 10px;
         padding: 10px;
         top: 100%
-        transform : translateY(-100%)
+        /*transform : translateY(-100%)*/
        } 
 
   </style>
@@ -48,19 +48,20 @@
 
      </video>
 
-         <div class="controle">
-         <img  class= "btn"src="./images/deadpol.jpg">
-         <img  class= "btn" src="./images/melhores img.jpg" >
-         <img  class= "btn" src="./images/deadpol.jpg">
-         <img  class= "btn" src="./images/melhores img.jpg" >
-         <img  class= "btn" src="./images/deadpol.jpg">
-         <img  class= "btn" src="./images/melhores img.jpg" >
+     <div class="controle">
 
-
-</div>
+         <img  class= "btn" onclick = "retroceder()" src=./images/deadpol.jpg">
+         <img  class= "btn" onclick="avancar()" src="./images/melhores img.jpg" >
+         <img  class= "btn" onclick="diminuir_vel()" src="./images/deadpol.jpg">
+         <img  class= "btn" onclick="aumentar_vel()" src="./images/melhores img.jpg" >
+         <img  class= "btn" onclick="play()" src="./images/deadpol.jpg">
+         <img  class= "btn" onclick="stop()" src="./images/melhores img.jpg" >
 
 </div>
 
+</div>
+
+<script src="script1.js"></script>
 </body>
 
 

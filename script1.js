@@ -1,16 +1,22 @@
-let lista = document.getElementById("lista");
+let video = document.getElementById("video");
 
-let num = lista.getAttribute("num")
-
-console.log(lista.dataset.num)
-
-let = conteudo = "" ;
-
-for(let i = 0; i < num; i++){
-
-conteudo += "<li>"+i+"</li>";
+function retroceder() {
+video.currentTime -= 15;
+}
+function avancar() {
+video.currentTime += 15 ;
+}
+function diminuie_vel() {
+ video.playbackRate -= 0.1 ;
+}
+function aumentar_vel() {
+ video.playbackRate += 0.1 ;
+}
+function play() {
+  video.play();
+}
+function stop () {
+   video.pause();
+   video.currentTime = 0;
 
 }
-
-lista.innerHTML = conteudo ;
-
